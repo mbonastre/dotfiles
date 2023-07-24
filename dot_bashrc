@@ -1,4 +1,9 @@
 # ~/.bashrc: executed by bash(1) for non-login shells.
+#
+# File managed with chezmoi; edit with:
+#
+#  chezmoi edit .bashrc
+#
 
 # If not running interactively, don't do anything
 case $- in
