@@ -140,3 +140,7 @@ if [ -d "${HOME}/.config/autostart" ] ; then
   export XDG_DATA_DIRS="${HOME}/.config/autostart:$XDG_DATA_DIRS"
 fi
 
+if [ -d "${HOME}/.config/freedesktop" ] ; then
+  export XDG_DATA_DIRS="${HOME}/.config/freedesktop:$XDG_DATA_DIRS"
+fi
+
