@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Dropbox
+Comment=Dropbox daemon
+Exec=dropbox.py start
+Terminal=false
+Type=Application
+StartupNotify=true
+Icon=/home/mbon/Dropbox/Fotos/Logos/Dropbox.svg
