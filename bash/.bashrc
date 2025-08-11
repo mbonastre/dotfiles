@@ -133,6 +133,7 @@ if [ -f ${HOME}/bin/cherrypick.sh ] ; then
 fi
 
 if [ -f ${HOME}/.local/bin/virtualenvwrapper.sh ] ; then
+  echo "Loading virtualenvwrapper.sh..."
   source ${HOME}/.local/bin/virtualenvwrapper.sh
 fi
 
