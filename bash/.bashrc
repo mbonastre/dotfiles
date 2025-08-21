@@ -145,3 +145,8 @@ if [ -d "${HOME}/.config/freedesktop" ] ; then
   export XDG_DATA_DIRS="${HOME}/.config/freedesktop:$XDG_DATA_DIRS"
 fi
 
+# Add brew to the path, etc 
+if [ -x /home/linuxbrew/.linuxbrew/bin/brew ] ; then
+  eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+fi
+
