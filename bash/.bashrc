@@ -13,6 +13,7 @@ case $- in
 esac
 
 export EDITOR=vi
+export VAGRANT_DEFAULT_PROVIDER=libvirt
 
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
