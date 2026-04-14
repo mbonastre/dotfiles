@@ -4,7 +4,7 @@ alias winbox='wine /usr/local/bin/winbox.exe $@ > /dev/null 2>&1'
 alias winscp='wine "C:/Program Files (x86)/WinSCP/WinSCP.exe" > /dev/null 2>&1'
 alias dahua='wine "C:/Program Files/SmartPSSLite/SmartPSSLite.exe" > /dev/null 2>&1'
 alias configtool='wine "C:/Program Files (x86)/ConfigTool/ConfigTool/ConfigTool.exe" '
-
+alias zebracfg='wine "C:/Program Files (x86)/Zebra Technologies/Zebra Setup Utilities/App/PrnUtils.exe"'
 PDFXedit() { wine PDFXedit.exe "$@" > /dev/null 2>&1 ; }
 alias l_openvpn='sudo openvpn --client --config /etc/openvpn/client/client.conf'
 alias l_openvpn_lan='sudo openvpn --client --config /etc/openvpn/client/client-lan.conf'
