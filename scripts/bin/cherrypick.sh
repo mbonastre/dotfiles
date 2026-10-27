@@ -1,8 +1,12 @@
 #!/bin/echo This file must be run in the same process with "." (source)
 
+# 2026-08-05:
+#   Current branch: 7.2
+#   Next branch: main 7.6
+#   We will skip 7.4
 cherry-pick() {
     local default_branch="7.2"
-    local default_list="main 7.4"
+    local default_list="main 7.6"
 
     local num_commits="$1"
     if [ -z "${num_commits}" ] ; then
